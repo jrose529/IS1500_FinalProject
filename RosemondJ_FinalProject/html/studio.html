@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <title>152Ent.</title>
+    <meta charset="utf-8">
+    <meta name="description" content="152 Enterprises Website made by Jensen Rosemond for Louie Hernandez">
+    <meta name="keywords" content="152 Enterprises, 152Ent, Long Island, New York, Music, Rap, Hip-Hop">
+    <meta name="author" content="Jensen Rosemond">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <!-- For some reason, file in directory wasn't working -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="http://is1500-rosemondj-fp.atwebpages.com/bootstrap/css/customStyle.css" />
+    <!-- Social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- For validation of form. -->
+    <script src="http://is1500-rosemondj-fp.atwebpages.com/bootstrap/js/stuValidate.js"></script>
+    
+    <!-- These scripts are for the image carousel, files in directory weren't working. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        background:url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat;
+        padding-top: 100px;
+        padding-bottom: 200px;
+        background-size: cover;
+      } 
+    </style>    
+  </head>
+  
+  <body class="py-0">  
+    <div class="container container-custom">
+      <nav class="navbar navbar-expand-sm navbar-custom fixed-top">
+        <ul class="navbar-nav">
+         <li class="nav-item">
+           <a class="navbar-brand" href="#">152Enterprises</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="http://is1500-rosemondj-fp.atwebpages.com/bootstrap/html/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://is1500-rosemondj-fp.atwebpages.com/bootstrap/php/segment.php">Weekly Segments</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="http://is1500-rosemondj-fp.atwebpages.com/bootstrap/html/studio.html">Studio Reservations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://is1500-rosemondj-fp.atwebpages.com/bootstrap/php/store.php">Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://is1500-rosemondj-fp.atwebpages.com/bootstrap/html/blog.html">Community</a>
+          </li>
+        </ul>
+     </nav>
+     
+     <p>&nbsp</p>
+     <p>&nbsp</p>
+     
+     <h1 class="display-4">STUDIO 152</h1>
+     <span id="resultMsg"></span>
+     
+     <div class="row">
+       <div class="col-10">
+         <div id="stuCarousel" class="carousel slide" data-ride="carousel">
+           <!-- Indicators -->
+           <ul class="carousel-indicators">
+             <li data-target="#stuCarousel" data-slide-to="0" class="active"></li>
+             <li data-target="#stuCarousel" data-slide-to="1"></li>
+             <li data-target="#stuCarousel" data-slide-to="2"></li>
+             <li data-target="#stuCarousel" data-slide-to="3"></li>
+             <li data-target="#stuCarousel" data-slide-to="4"></li>
+           </ul>
+
+           <!-- The slideshow -->
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="http://is1500-rosemondj-fp.atwebpages.com/bootstrap/img/stuImg_1-min.jpg" height="520" alt="stuImg1">
+             </div>
+             <div class="carousel-item">
+               <img src="http://is1500-rosemondj-fp.atwebpages.com/bootstrap/img/stuImg_2-min.jpg" height="520" alt="stuImg2">
+             </div>
+             <div class="carousel-item">
+               <img src="http://is1500-rosemondj-fp.atwebpages.com/bootstrap/img/stuImg_4-min.jpg" height="520" alt="stuImg3">
+             </div>
+             <div class="carousel-item">
+               <img src="http://is1500-rosemondj-fp.atwebpages.com/bootstrap/img/stuImg_5-min.jpg" height="520" alt="stuImg4">
+             </div>
+             <div class="carousel-item">
+               <img src="http://is1500-rosemondj-fp.atwebpages.com/bootstrap/img/stuImg_7-min.jpg" height="520" alt="stuImg6">
+             </div>
+           </div>
+ 
+           <!-- Left and right controls -->
+           <a class="carousel-control-prev" href="#stuCarousel" data-slide="prev">
+             <span class="carousel-control-prev-icon"></span>
+           </a>
+           <a class="carousel-control-next" href="#stuCarousel" data-slide="next">
+             <span class="carousel-control-next-icon"></span>
+           </a>
+         </div>
+       </div>
+       <div class="col">
+       
+       <p>&nbsp</p>
+       
+       <h3>Hours</h3>
+         <table>
+           <tr><td>Mon:</td><td>11am - 1am</td></tr>
+           <tr><td>Tue:</td><td>Closed</td></tr>
+           <tr><td>Wed:</td><td>Closed</td></tr>
+           <tr><td>Thu:</td><td>11am - 1am</td></tr>
+           <tr><td>Fri:</td><td>11am - 1am</td></tr>
+           <tr><td>Sat:</td><td>11am - 1am</td></tr>
+           <tr><td>Sun:</td><td>11am - 1am</td></tr>
+         </table>
+         
+         <p>&nbsp</p>
+         
+         <h3>Address</h3>
+           <table>
+             <tr><td>Olympia Road</td></tr>
+             <tr><td>North Bellmore</td></tr>
+             <tr><td>NY, 11710</td></tr>
+             <tr><td>United States</td></tr>
+           </table> 
+         </div>
+       </div>
+          
+       <p>&nbsp</p>
+    
+     <div style="text-align:center">
+       <h6>Complete the following form to reserve studio time. The hourly rate is $xx.</h6>
+       <p/><p/>
+     </div>
+       
+     <!-- Paypal/cart -->
+
+     <form id="stuForm" role="form" id="stuForm">
+       <div class="messages"></div>
+       <div class="row">
+         <div class="col-lg-6">
+           <div class="form-group">
+             <label for="formFNameStu">First Name*</label>
+             <input type="text" class="form-control" id="formFNameStu" name="formFNameStu" placeholder="Please enter your first name" required="required"
+             data-error="First name is required.">
+             <div class="help-block with-errors"></div>
+           </div>
+         </div>
+         <div class="col-lg-6">
+              <div class="form-group">
+             <label for="formLNameStu">Last Name*</label>
+             <input type="text" class="form-control" id="formLNameStu" name="formLNameStu" placeholder="Please enter your last name" required="required"
+             data-error="Last name is required.">
+             <div class="help-block with-errors"></div>
+           </div>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-lg-6">
+           <div class="form-group">
+             <label for="formEmailStu">Email*</label>
+             <input type="email" class="form-control" id="formEmailStu" name="formEmailStu" placeholder="Please enter your email" required="required"
+             data-error="Email is required.">
+             <div class="help-block with-errors"></div>
+           </div>
+         </div>
+         <div class="col-lg-6">
+              <div class="form-group">
+             <label for="formPhoneStu">Phone</label>
+             <input type="tel" class="form-control" id="formPhoneStu" name="formPhoneStu" placeholder="Please enter your phone #">
+           </div>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-lg-6">
+           <div class="form-group">
+             <label for="formDateStu">Date*</label>
+             <input type="date" class="form-control" id="formDateStu" name="formDateStu" required="required" data-error="Date is required.">
+             <div class="help-block with-errors"></div>
+           </div>
+         </div>       
+         <div class="col-lg-3">
+            <div class="form-group">
+             <label for="formTime1Stu">Start Time*</label>
+             <input type="time" class="form-control" id="formTime1Stu" name="formTime1Stu" required="required" data-error="Start time is required.">
+             <div class="help-block with-errors"></div>
+           </div>
+         </div>
+         <div class="col-lg-3">
+            <div class="form-group">
+             <label for="formTime2Stu">End Time*</label>
+             <input type="time" class="form-control" id="formTime2Stu" name="formTime2Stu" required="required" data-error="End time is required.">
+             <div class="help-block with-errors"></div>
+           </div>
+         </div>
+       </div>
+       <button type="submit" id="submit" class="btn btn-primary">Submit Reservation</button>
+       <div class="alert alert-danger display-error" style="display: none"></div>
+       
+     </form>
+          
+     <hr>  
+     
+     <p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.0355371412725!2d-73.53793268459559!3d40.695214979333684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c27e5e064ccbfd%3A0x7a3a9943d6e077b0!2sOlympia%20Rd%2C%20North%20Bellmore%2C%20NY%2011710!5e0!3m2!1sen!2sus!4v1575243443127!5m2!1sen!2sus" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+   
+   </div>
+   <!-- End container -->
+    
+    <div class="footer footer-custom">
+      <p>&nbsp</p>
+      <div class="col text-center">
+        <a href="https://soundcloud.com/louielulu152" class="fa fa-soundcloud"></a>
+        <a href="https://www.youtube.com/channel/UCaQuLXq4i8aPOGHqwR5kbcg" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com/louielou152/?hl=en" class="fa fa-instagram"></a>
+        <a href="https://open.spotify.com/artist/0MgbFzxLsBCeBMA15BsAnz?si=8meCQj7TS7u5l5q00XtcYA" class="fa fa-spotify"></a>
+      </div>  
+      <div class = "text-center">
+        <p style="color: #D4AF37">&copy; 2019 152Ent. </p>
+      </div>
+    </div>
+    <script type="text/javascript">
+    $(document).ready(function () {
+    
+      $('#submit').click(function(e){
+        e.preventDefault();
+        
+        var formFNameStu = $("#formFNameStu").val();
+        var formLNameStu = $("#formLNameStu").val();
+        var formEmailStu = $("#formEmailStu").val();
+        var formPhoneStu = $("#formPhoneStu").val();
+        var formDateStu = $("#formDateStu").val();
+        var formTime1Stu = $("#formTime1Stu").val();
+        var formTime2Stu = $("#formTime2Stu").val();
+        
+        $.ajax({
+          type:"POST",
+          url:"http://is1500-rosemondj-fp.atwebpages.com/bootstrap/php/studioRes.php",
+          dataType:"json",
+          data: {formFNameStu:formFNameStu, formLNameStu:formLNameStu, formEmailStu:formEmailStu, formPhoneStu:formPhoneStu, formDateStu:formDateStu, formTime1Stu:formTime1Stu, formTime2Stu:formTime2Stu},
+          success: function(result){
+            alert(result.msg);
+
+            //Confirmed submission, clear form.
+            if(result.msg.includes("confirmed") == true){
+              $("#stuForm")[0].reset();
+            }
+          }
+        });
+      });
+    });
+    </script>
+  </body>
+</html>

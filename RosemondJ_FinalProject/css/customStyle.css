@@ -1,0 +1,79 @@
+      .container-custom {
+        background: white;
+        border-left: 3px solid;
+        border-right: 3px solid;
+        padding-bottom: 10px;
+      }
+      .navbar-custom {
+        background-color: black;
+      }
+      .navbar-custom .navbar-brand,
+      .navbar-custom .navbar-text {
+        color: #D4AF37;
+      }
+      .navbar-custom .navbar-nav .nav-link {
+        color: #D4AF37;
+      }
+      .navbar-custom .nav-item.active .nav-link,
+      .navbar-custom .nav-item:hover .nav-link {
+        color: #D4AF37;
+        -webkit-animation:colorchange 20s infinite alternate;
+      }
+      
+      @-webkit-keyframes colorchange {
+        0% {
+          color: #D4AF37;
+        }
+        
+        10% {        
+          color: #D800000;
+        }
+      
+        20% {
+          color: #00008B;
+        }
+      
+        30% {
+        color: #D80000;
+        }
+        40% {
+          color: #D4AF37;
+        }
+        
+        50% {        
+          color: #D800000;
+        }
+      
+        60% {
+          color: #00008B;
+        }
+      
+        70% {
+        color: #D80000;
+        }
+        80% {
+          color: #D4AF37;
+        }
+        
+        90% {        
+          color: #D800000;
+        }
+      
+        100% {
+          color: #00008B;
+        }
+      }
+      .footer-custom {
+        background-color: black;
+        height:100px
+        width:100%;
+        padding-bottom: 25px;
+      }
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        color: #D4AF37;
+      }
